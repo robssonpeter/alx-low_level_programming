@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+int main(void){
   char character = 'z';
   int age = 24;
   unsigned int tasks = 21; 
