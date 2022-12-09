@@ -11,10 +11,11 @@
 int main(void)
 {
 	char character;
-	int age; 
+	int age;
 	long long int long_int;
 	long longer;
 	float temp;
+
 	printf("Size of a char: %d byte(s)\n", sizeof(character));
 	printf("Size of an int: %d byte(s)\n", sizeof(age));
 	printf("Size of a long int: %d byte(s)\n", sizeof(longer));
