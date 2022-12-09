@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main -This is the preferred style for multi-line
  * comments in C source code.
@@ -10,16 +11,19 @@
  */
 int main(void)
 {
-	char x;
+	int x;
 
-	for (x = '0'; x <= '9'; x++)
+	for (x = 0; x <= 9; x++)
 	{
-		putchar(x);
-		if (x < '9')
+		putchar((x % 10) + '0');
+		if (x < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
+	
+	putchar('\n');
+
 	return (0);
 }
