@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
+ * main -This is the preferred style for multi-line
  *
- *main - This is the main function 
- *Description: It workds
- *Return: return zero
- *
+ * Description:  A column of asterisks on the left side,
+ * with beginning and ending almost-blank lines.
  */
 int main(void)
 {
