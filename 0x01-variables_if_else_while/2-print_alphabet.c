@@ -10,8 +10,6 @@
  */
 int main(void)
 {
-	char a = 'a';
-	char z = 'z';
 	char chr;
 
 	for (chr = 'a'; chr <= 'z'; chr++)
