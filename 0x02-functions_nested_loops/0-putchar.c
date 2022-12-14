@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main -This is the preferred style for multi-line
  * comments in C source code.
@@ -10,9 +9,16 @@
  * Return: return zero
  */
 
-int main (void)
+int main(void)
 {
-	printf("%s", "_putchar\n");
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
