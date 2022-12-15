@@ -5,6 +5,7 @@
 * for leap year
 * @month: month in number format
 * @day: day of month
+* Description: converts day of month to day of year, without accounting
 * Return: day of year
 */
 

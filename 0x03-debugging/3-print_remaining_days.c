@@ -7,6 +7,7 @@
 * @month: month in number format
 * @day: day of month
 * @year: year
+* Description: takes a date prints how many days are left
 * Return: void
 */
 

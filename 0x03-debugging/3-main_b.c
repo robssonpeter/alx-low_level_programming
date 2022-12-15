@@ -4,6 +4,7 @@
 /**
 * main - takes a date and prints how many days are left in the year, taking
 * leap years into account
+* Description: takes a date and prints how may days are left in the year
 * Return: 0
 */
 
