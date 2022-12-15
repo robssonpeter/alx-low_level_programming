@@ -1,6 +1,6 @@
 #include <ctype.h>
 /**
- * _main - check the code.
+ * _isupper - check the code.
  *
  * Return: Always 1 or 0
  */
