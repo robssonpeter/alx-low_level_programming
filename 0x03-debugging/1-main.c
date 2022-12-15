@@ -2,6 +2,7 @@
 
 /**
 * main - causes an infinite loop
+* Description:  A column of asterisks on the left side
 * Return: 0
 */
 
