@@ -7,6 +7,8 @@
 
 int _isupper(char c)
 {
-	int is_upper = c >= 65 && c <= 90;
-	return is_upper;
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
