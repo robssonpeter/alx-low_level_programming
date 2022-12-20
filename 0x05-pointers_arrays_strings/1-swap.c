@@ -1,5 +1,5 @@
 /**
- * swap_int swapping values
+ * swap_int - swapping values
  * @a: pointer a
  * @b: pointer b
  * Description: swapping values between and b
