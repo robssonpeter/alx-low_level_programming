@@ -1,6 +1,7 @@
 /**
  * rest_to_98 - prints given string in reverse
- * @*n: passed pointer argument for string
+ * Description: reset to 98
+ * @n: passed pointer argument for string
  *
  * Return: void
  */
