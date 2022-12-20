@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,6 +11,7 @@ int main(void)
 	char *str;
 
 	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	/*printf("%s", str);*/
 	_puts(str);
 	return (0);
 }
