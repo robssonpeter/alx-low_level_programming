@@ -1,9 +1,9 @@
 /**
-*reset_to_98 - check the code 
-*Description: reset n to 98
-*@*n: Pointer to n
-*Return: void
-*/
+ * rest_to_98 - prints given string in reverse
+ * @*n: passed pointer argument for string
+ *
+ * Return: void
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
