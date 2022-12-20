@@ -1,8 +1,8 @@
 #include "main.h"
 #include "string.h"
 /**
- * puts2 the function
- * @str a pointer
+ * puts2 - the function
+ * @str: a pointer
  * Description: Prints the characters
  * Return: void
  */
@@ -17,7 +17,7 @@ void puts2(char *str)
 	while (i < length)
 	{
 		_putchar(str[i]);
-		i+=2;
+		i += 2;
 	}
 	_putchar('\n');
 }
