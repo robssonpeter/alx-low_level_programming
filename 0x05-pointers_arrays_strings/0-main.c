@@ -3,7 +3,7 @@
 
 /**
  * main - check the code 
- *
+ * Description: reset n to 98
  * Return: Always 0.
  */
 int main(void)
