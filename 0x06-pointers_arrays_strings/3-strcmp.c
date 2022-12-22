@@ -1,7 +1,6 @@
 #include <string.h>
 /**
  * _strcmp - compare
- * @dest: destination
  * @s1: string 1
  * @s2: stirng 2
  * Description: Compare string
