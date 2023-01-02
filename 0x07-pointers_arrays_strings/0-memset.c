@@ -6,7 +6,7 @@
  * @b: second character
  * @n: integer
  * Description: A function to fill memory with a constant byte
- * Return: char
+ * Return: a pointer to the memory area @s
  */
 
 char *_memset(char *s, char b, unsigned int n){
