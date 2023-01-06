@@ -1,1 +1,1 @@
-# alx-low_level_programming
+Pointers arrays string
