@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
  * main - main function
- * @argc: argument 1 counting
- * @argv: argumet 2 parameters
+ * @argc: first argument counting
+ * @argv: second argument parameters
+ *
  * Description: find the name of the program
- * Return: zero
+ * Return: Always (0)
  */
 
 int main(int argc, char* argv[])
