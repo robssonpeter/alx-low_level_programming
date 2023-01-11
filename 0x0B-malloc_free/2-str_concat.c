@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 	x = 0;
 	y = strlen(s1);
 	new_length = y + strlen(s2);
-	concatenated = malloc(new_length + 1);
+	concatenated = (char*) malloc(new_length + 1);
 
 	while (x < y)
 	{
@@ -42,6 +42,6 @@ char *str_concat(char *s1, char *s2)
 		x++;
 	}
 
-	return ((char *)concatenated);
+	return (concatenated);
 }
 
