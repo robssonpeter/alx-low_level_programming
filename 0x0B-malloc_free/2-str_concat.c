@@ -42,6 +42,10 @@ char *str_concat(char *s1, char *s2)
 		x++;
 	}
 
+	if (concatenated == NULL)
+	{
+		return (NULL);
+	}
 	return (concatenated);
 }
 
