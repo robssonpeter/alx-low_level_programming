@@ -14,10 +14,19 @@ char *str_concat(char *s1, char *s2)
 	char *concatenated;
 	int x, y, new_length;
 
+	if (s1 == NULL)
+	{
+		s1 = "";
+	}
+
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
 	x = 0;
 	y = strlen(s1);
 	new_length = y + strlen(s2);
-	concatenated = malloc(new_length);
+	concatenated = malloc(new_length + 1);
 
 	while (x < y)
 	{
@@ -26,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	x = 0;
-	while (y < new_length)
+	while (y < new_length - 1)
 	{
 		concatenated[y] = *(s2 + x);
 		y++;
