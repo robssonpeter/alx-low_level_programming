@@ -16,12 +16,12 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 	{
-		s1 = "";
+		s1 = " ";
 	}
 
 	if (s2 == NULL)
 	{
-		s2 = "";
+		s2 = " ";
 	}
 	x = 0;
 	y = strlen(s1);
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	x = 0;
-	while (y < new_length - 1)
+	while (y < new_length)
 	{
 		concatenated[y] = *(s2 + x);
 		y++;
