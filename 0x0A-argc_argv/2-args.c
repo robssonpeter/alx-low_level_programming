@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - print all arguments
  * @argc: count all parameters
  * @argv: pointer with all the parameters
@@ -9,7 +9,7 @@
  *
  */
 
-int main (int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int x;
 
