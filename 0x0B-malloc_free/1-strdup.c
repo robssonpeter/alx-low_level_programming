@@ -16,7 +16,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	location = malloc(sizeof(char *));
+	location = (char *) malloc(sizeof(char *));
 
 	strcpy(location, str);
 
