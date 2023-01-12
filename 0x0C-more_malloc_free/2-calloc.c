@@ -10,9 +10,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char **array;
 
-	array = malloc(sizeof(int *) * nmemb);
+	array = malloc(sizeof(int) * nmemb * size);
 
-	
-
-	return (space);
+	return (array);
 }
