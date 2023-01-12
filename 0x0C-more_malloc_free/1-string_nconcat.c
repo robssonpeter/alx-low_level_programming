@@ -29,21 +29,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		allocated[x + y] = s2[y];
 	}
 	allocated[x + y + 1] = '\0';
-	/*for (x = 0; x < length; x++)
-	{
-		if (x < strlen(s1))
-		{
-			allocated[x] = s1[x];
-		}
-		else if (x == length - 2)
-		{
-			allocated[x] = '\0';
-		}
-		else
-		{
-			allocated[x] = s2[x - (strlen(s1) - 1)];
-		}
-	}*/
 
 	return (allocated);
 }
