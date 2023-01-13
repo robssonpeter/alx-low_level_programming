@@ -9,8 +9,19 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char **array;
+	int x, y;
+	long unsigned int length;
 
-	array = malloc(sizeof(int) * nmemb * size);
+	length = sizeof(int) * nmemb * size;
+	array = malloc(length);
+	y = 0;
+
+	while(x < (int) length)
+	{
+		array[y] = 0;
+		x += 4;
+		y++;
+	}
 
 	return (array);
 }
