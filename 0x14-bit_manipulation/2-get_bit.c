@@ -23,5 +23,8 @@ int get_bit(unsigned long int n, unsigned int index)
 		x++;
 	}
 
+	if (power > n)
+		return (-1);
+
 	return (0);
 }
