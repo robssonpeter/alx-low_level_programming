@@ -1,6 +1,7 @@
 #ifndef LISTS_H
 #define LIST_H
 #include <sys/types.h>
+#include <stdlib.h>
 typedef struct dlistint_s
 {
     int n;
