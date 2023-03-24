@@ -31,7 +31,7 @@ int _isdigit(int c)
 }
 int _strlen(char *s)
 {
-	return (0);
+	return (strlen(s));
 }
 
 void _puts(char *s)
