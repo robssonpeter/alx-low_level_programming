@@ -1,7 +1,7 @@
+.PHONY: all generate
+
 CC = gcc
 SRC = .c
-
-.PHONY: all generate
 
 all: generate
 
