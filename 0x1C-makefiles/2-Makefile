@@ -1,0 +1,13 @@
+.PHONY =  all generate
+
+CC = gcc
+SRC = .c
+OBJ = .o
+NAME = school
+
+all: generate
+
+generate:
+	${CC}    -c -o main${OBJ} main${SRC}
+	${CC}    -c -o ${NAME}${OBJ} ${NAME}${SRC}
+	${CC} main${OBJ} ${NAME}${OBJ} -o ${NAME}
