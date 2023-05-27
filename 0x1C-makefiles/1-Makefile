@@ -4,4 +4,4 @@ CC = gcc
 SRC = .c
 
 all: main.c m.h school.c
-	${CC} main${SRC} school${SRC} school
+	${CC} main${SRC} school${SRC} -o school
