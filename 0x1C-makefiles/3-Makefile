@@ -1,0 +1,31 @@
+.PHONY =  all generate
+
+CC = gcc
+SRC = .c
+OBJ = .o
+NAME = school
+RM = rm
+
+all: main${OBJ} ${NAME}${OBJ}
+	${CC} main${OBJ} ${NAME}${OBJ} -o ${NAME}
+
+main${OBJ}: main${SRC}
+	${CC}    -c -o main${OBJ} main${SRC}
+	
+${NAME}${OBJ}: ${NAME}${SRC}
+	${CC}    -c -o ${NAME}${OBJ} ${NAME}${SRC}
+
+clean:
+	-@${RM} -f *.swp *~ ${NAME}
+
+oclean:
+	-@${RM} -f *${OBJ}
+
+fclean:
+	-@${RM} -f *~ ${NAME} *${OBJ}
+
+re:
+	${RM} -f main${OBJ} ${NAME}${OBJ}
+	${CC}    -c -o main${OBJ} main${SRC}
+	${CC}    -c -o ${NAME}${OBJ} ${NAME}${SRC}
+	${CC} main${OBJ} ${NAME}${OBJ} -o ${NAME}
