@@ -1,9 +1,7 @@
-.PHONY: all generate
+.PHONY: all
 
 CC = gcc
 SRC = .c
 
-all: generate
-
-generate:
+all: main.c m.h school.c
 	${CC} main${SRC} school${SRC} school
