@@ -1,5 +1,13 @@
 #include "search_algos.h"
 #include <stdio.h>
+/*
+ * binary_search - the function
+ * @array: An array of intergers
+ * @size: size of the array
+ * @value: the value to be searched
+ * Description: Function using binary search to find an element
+ * Return: integer
+ */
 int binary_search(int *array, size_t size, int value)
 {
 	size_t mid, left, right;
